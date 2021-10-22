@@ -114,7 +114,9 @@ p { line-height: 1.9; }
     justify-content: space-between;  
 }
 
-.tm-row { display: flex; }
+.tm-row { display: flex;
+justify-content: space-between;
+}
 
 .tm-col-left {
     width: 50%;
@@ -154,6 +156,7 @@ p { line-height: 1.9; }
 padding-bottom: -10px;}
 
 hr { border-top: 2px solid white; }
+
 
 .btn {
     padding: 10px 25px;
@@ -338,4 +341,7 @@ textarea {
     .tm-service-text { margin-top: 20px; }
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
+}
+.test{
+    width: 66vw;
 }
