@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     overflow-x: hidden;
     color: white;
-    background-image: url(../img/diagoona-bg-1.jpg);
+    background-image: url(../img/portback.jpg);
     background-size: cover;
 }
 
@@ -115,8 +115,9 @@ justify-content: space-between;
     box-shadow: 0 0 1px rgba(255,255,255,.8);
 }
 
-.tm-content-title { font-size: 1.9rem; 
-padding-bottom: -10px;}
+.tm-content-title { font-size: 1.6rem; 
+padding-bottom: -10px;
+}
 
 hr { border-top: 2px solid white; }
 
@@ -200,7 +201,7 @@ textarea {
 .form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */  
 .form-control::placeholder { color: white; }
 
-@media (max-width: 1200px) {
+@media (max-width: 100px) {
     .nav-item { margin-right: 30px; }
 
     .tm-page-right {
@@ -438,4 +439,23 @@ footer {
   right: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.embedsocial{
+height: 40%;
+}
+
+.ytplay{
+max-width: 65%;
+max-height: 40%;
+}
+.acol-left{
+padding-left: 10vh;
+width: 40%;
+padding: 10vh;
+}
+.acol-right{
+padding-right: 10vh;
+width: 60%;
+padding: 10vh;
 }
