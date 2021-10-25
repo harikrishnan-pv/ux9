@@ -17,7 +17,9 @@ a:hover { text-decoration: none; }
 button:focus { outline: none; }
 p { line-height: 1.9; }
 .tm-logo { margin-right: 20px; }
-.tm-slogan { font-size: 0.8rem; }
+.tm-slogan { 
+    font-size: 5.8rem;
+    padding-top: 10vh; }
 
 /* Navigation */
 .navbar-toggler {
@@ -134,9 +136,9 @@ justify-content: space-between;
 
 .tm-content {
     max-width: 660px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .tm-about { max-width: 525px; }
@@ -350,3 +352,80 @@ textarea {
     padding-top: 10px;
     padding-right: 10px;
 }
+
+.Ultimate{
+    font-size: 3.4rem;
+    margin-top: 8vh;
+    font-weight: 900;
+    width: 350px;
+    margin-left: 200px ;
+   }
+
+.simp1{
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-top:     ;
+}
+
+.center { text-align: left;
+    font-size:1.3rem;}
+    
+    .container {
+      width: 95%;
+      max-width: 1220px;
+      padding-right: 250px;
+    }
+    
+    .episode {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      position: relative;
+    }
+    
+    .episode__number {
+      font-size: 1.5vw;
+      font-weight: 600;
+      padding-right:20px;
+      position: sticky;
+      top: 0;
+      text-align: right;
+      height: calc(0vw);
+      transition: all 0.25s ease-in-out;
+    }
+    
+    .episode__content {
+      border-top: 2px solid rgba(255, 255, 255, 0);
+      display: flex;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:px;
+      padding: 5px 0;
+    }
+    
+    .story{
+      width:500px;
+    }
+    
+    .episode__content .title {
+      font-weight: 600
+    }
+    
+    .episode__content .story {
+      line-height:0px;
+    }
+    
+    @media (max-width: 600px) {
+      .episode__content {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .episode__content .story {
+        font-size: 15px;
+      }
+    }
+
+    .episode__number:hover{
+        font-size: 2.5rem;
+        color:rgba(255,255,255,.8);
+    }
