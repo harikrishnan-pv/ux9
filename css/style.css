@@ -606,3 +606,12 @@ textarea {
     font-size: 6.3rem;
     font-weight: 500;
 }
+footer {
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
