@@ -408,12 +408,11 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 30px;
         margin-bottom: 100px;
     } 
    
    .tbox{
-       width: 47%;
+       width: 27%;
        padding: 50px;
        border: 1px solid rgb(255, 191, 191);
        box-sizing: border-box;
