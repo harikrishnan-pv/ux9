@@ -325,7 +325,7 @@ textarea {
 .simp1{
     font-size: 1.6rem;
     font-weight: 900;
-    margin-top:     ;
+    margin-top: 0px;
 }
 
 .center { text-align: left;
@@ -423,4 +423,27 @@ textarea {
    .offer{
        font-size: 1.5rem;
        font-weight: 900;
+   }
+   .embedsocial{
+       padding-bottom: 200px;
+   }
+   .yplay{
+       width: 400px;
+       height: 500px;
+   }
+   .ytinit{
+       padding-right: 300px;
+   }
+   .acol-left{
+    width: 20%;
+    height: 100%;
+    padding-left: 40px;  
+    padding-top: 20px;
+   }
+   .acol-right{
+    width: 70%;
+    height: 100%;
+    padding-right: 40px;
+    padding-top: 20px;
+
    }
