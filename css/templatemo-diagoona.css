@@ -44,11 +44,11 @@ p { line-height: 1.9; }
     font-size: 1.2rem;
     font-weight: 400;
     color: white;    
-    padding-bottom: 30px;    
+    padding-bottom: 3px;    
 }
 
 .nav-item { 
-    margin-right: 60px;
+    margin-right: 80px;
     }
 
 .nav-item a{
