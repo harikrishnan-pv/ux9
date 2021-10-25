@@ -392,7 +392,35 @@ textarea {
 
     .nav-item{
         padding-left: 25px;
+        transition: 0.2s;
+    }
+
+    .nav-link{
+        font-weight: 400;
     }
 
 
+    .nav-item:hover{
+        padding-left:35px ;
+    }
 
+    .testimonials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    } 
+   
+   .tbox{
+       width: 47%;
+       padding: 50px;
+       border: 1px solid rgb(255, 191, 191);
+       box-sizing: border-box;
+       margin-top: 50px;
+   }
+
+   .offer{
+       font-size: 1.5rem;
+       font-weight: 900;
+   }
