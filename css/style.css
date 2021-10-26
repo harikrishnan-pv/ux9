@@ -440,34 +440,11 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.container{
+    position:absolute
+    bottom : 40vh;
 
-.ytplay{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-}
-.acol-left{
-padding-left: 10vh;
-width: 40%;
-padding: 10vh;
-}
-.acol-right{
-padding-right: 10vh;
-width: 60%;
-padding: 10vh;
-}
-.ytplayer{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-.embedsocial{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+    display: flex;
+    padding: 10px;
+    
 }
