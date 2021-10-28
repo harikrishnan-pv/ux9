@@ -399,16 +399,16 @@ textarea {
         transition: 0.2s;
     }
 
-    .nav-link{
-        font-weight: 500;
-    }
-
-
+  
     .nav-item:hover{
         padding-left:35px ;
     }
 
- 
+    .nav-link{
+        font-weight: 600;
+    }
+
+
 
    .offer{
        font-size: 1.5rem;
